@@ -3,5 +3,6 @@
 ## Hello, World!
 テストサイト
 
-## Harufildサーバー用modpack
-どう公開すればいいの……？
+## BMS作者表
+好きな作者のBMSをまとめた表（現在工事中）
+アイコン:Madeby
