@@ -1,5 +1,38 @@
+body {
+  background-color: #282828;
+  color: #ebdbb2;
+}
+
 header {
   font-style: italic;
   font-weight: bold;
   font-size: xx-large;
+  border-bottom: solid;
+  border-color: #1d2021;
+  padding-left: 24%;
+}
+@media (max-width: 550px) {
+  header {
+    padding-left: 0;
+    text-align: center;
+  }
+}
+header p {
+  font-size: x-large;
+  margin: 5px;
+  margin-left: 15px;
+}
+
+.main {
+  margin: 10px;
+}
+
+.art-headding {
+  background-color: #1d2021;
+  padding-left: min(12%, 80px);
+  color: #cc241d;
+}
+.art-headding h1 {
+  margin: 5px;
+  padding: 5px;
 }/*# sourceMappingURL=hoge.css.map */

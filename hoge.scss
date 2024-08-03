@@ -1,5 +1,52 @@
+// 色はobsidian_gruvbox Darkのものを参照
+// 偉大なる元ネタ(Vim Colorscheme) https://github.com/morhetz/gruvbox
+// 愛すべきObsidianMD実装 https://github.com/insanum/obsidian_gruvbox
+
+// ===scss変数ルール===
+// 1. 背景色はbg、フォント色はfont
+// 2. 基本色は$<要素名>0
+// 3. コードが負の場合、暗いアクセント
+// 4. コードが正の場合、明るいアクセント
+
+$bg-1: #1d2021; //bg0_h
+$bg0: #282828; //bg0(bg)
+$bg1: #cc241d;
+
+$font-1: #fbf1c7; //fg0
+$font0: #ebdbb2; //fg1
+
+body{
+    background-color: $bg0;
+    color: $font0;
+}
 header{
     font-style:italic;
     font-weight: bold;
     font-size: xx-large;
+    border-bottom: solid;
+    border-color: $bg-1;
+    padding-left: 24%;
+    @media (max-width: 550px){
+        padding-left: 0;
+        text-align: center;
+    }
+    p{
+        font-size: x-large;
+        margin: 5px;
+        margin-left: 15px;
+    }
+}
+
+.main{
+margin: 10px;    
+}
+
+.art-headding{
+    background-color: $bg-1;
+    padding-left: min(12%, 80px) ;
+    color: $bg1;
+    h1{
+        margin: 5px;
+        padding: 5px;
+    }
 }
