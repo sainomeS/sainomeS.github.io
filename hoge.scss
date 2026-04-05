@@ -18,6 +18,9 @@ $font0: #ebdbb2; //fg1
 body{
     background-color: $bg0;
     color: $font0;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
 }
 header{
     font-style:italic;
@@ -41,7 +44,7 @@ header{
 margin: 10px;    
 }
 
-.art-headding{
+.article-headding{
     background-color: $bg-1;
     padding-left: min(12%, 80px) ;
     color: $bg1;
@@ -49,4 +52,8 @@ margin: 10px;
         margin: 5px;
         padding: 5px;
     }
+}
+
+.article-text{
+    padding-left: 5%;
 }

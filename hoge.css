@@ -1,6 +1,9 @@
 body {
   background-color: #282828;
   color: #ebdbb2;
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 header {
@@ -27,12 +30,16 @@ header p {
   margin: 10px;
 }
 
-.art-headding {
+.article-headding {
   background-color: #1d2021;
   padding-left: min(12%, 80px);
   color: #cc241d;
 }
-.art-headding h1 {
+.article-headding h1 {
   margin: 5px;
   padding: 5px;
+}
+
+.article-text {
+  padding-left: 5%;
 }/*# sourceMappingURL=hoge.css.map */

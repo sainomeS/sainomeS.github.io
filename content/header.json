@@ -1,9 +1,0 @@
-{
-	"name": "BMS作家表",
-	"symbol": "Madeby",
-	"data_url": "./score.json",
-	"level_order": [
-		"roop",
-		"Tigerlily"
-	]
-}
